@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping Pong</title>
+  </head>
+  <style>
+    #player1,
+    #player2 {
+      width: 200px;
+      height: 20px;
+      position: fixed;
+      left: 50%;
+      border-radius: 25px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+    #ball {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      position: fixed;
+      top: 20px;
+      left: 52.5%;
+      border-radius: 50%;
+    }
+    #player1 {
+      background-color: blue;
+      top: 0px;
+    }
+    #player2 {
+      background-color: blueviolet;
+      bottom: 0px;
+    }
+  </style>
+  <body>
+    <div id="player1">Player1</div>
+    <div id="player2">Player2</div>
+    <div id="ball"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
